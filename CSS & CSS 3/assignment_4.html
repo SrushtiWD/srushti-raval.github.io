@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wave</title>
+    <!-- Source sans 3 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <!-- Open sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .bg {
+            border: 3px solid rgba(255, 255, 255, 0);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.441), rgba(0, 0, 0, 0.441)), url(wave\ bg.png);
+            height: 600px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        .h2 {
+            font-size: 36px;
+            letter-spacing: 4px;
+            color: #ffffff;
+            font-weight: 700;
+            font-family: "Source Sans 3";
+            text-align: center;
+            margin-top: 90px;
+            padding: 0;
+        }
+
+        .p {
+            font-size: 14px;
+            line-height: 29px;
+            color: #f4f5f9;
+            font-weight: 400;
+            font-family: "Open Sans";
+            text-align: center;
+            margin-top: 0;
+        }
+
+        .design {
+            width: 100px;
+            height: 10px;
+            background: url(Design\ copy\ 4.svg);
+            background-size: 100% 100%;
+            margin: 0 auto;
+        }
+
+        .bg svg {
+            position: absolute;
+            bottom: 0;
+        }
+
+        .bg svg path {
+            fill: #e74c3c;
+            fill-opacity: 0.102;
+            stroke: #e74c3c;
+            stroke-width: 5px;
+            stroke-opacity: 1;
+
+        }
+
+        .img1 {
+            height: 48px;
+            width: 48px;
+            background: url(wave\ \(1\).svg);
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            position: absolute;
+            top: 335px;
+            left: 190px;
+
+        }
+
+        .line {
+            height: 90px;
+            width: 10px;
+            background: url(Line.svg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            position: absolute;
+            top: 350px;
+            left: 429px;
+        }
+
+        .img2 {
+            height: 84px;
+            width: 84px;
+            background: url(wave\ \(2\).svg);
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            filter: drop-shadow(0px 1px 0.9px rgb(0, 0, 0));
+            position: absolute;
+            top: 290px;
+            left: 390px;
+
+        }
+
+        .img-h2 {
+            font-size: 24px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #e74c3c;
+            font-weight: 600;
+            font-family: "Open Sans";
+            position: absolute;
+            top: 450px;
+            left: 340px;
+        }
+
+        .img-p2 {
+            font-size: 14px;
+            letter-spacing: 1px;
+            line-height: 24px;
+            color: #ffffff;
+            font-weight: 400;
+            font-family: "Source Sans Pro";
+            position: absolute;
+            top: 500px;
+            left: 390px;
+        }
+
+        .img3 {
+            height: 48px;
+            width: 48px;
+            background: url(wave\ \(3\).svg);
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            position: absolute;
+            top: 335px;
+            left: 640px;
+
+        }
+
+        .img4 {
+            height: 48px;
+            width: 48px;
+            background: url(wave\ \(4\).svg);
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            position: absolute;
+            top: 400px;
+            left: 850px;
+        }
+
+        .img5 {
+            height: 48px;
+            width: 48px;
+            background: url(wave\ \(5\).svg);
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            position: absolute;
+            top: 418px;
+            left: 1090px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+        <h2 class="h2">Our Team</h2>
+        <p class="p">Meet the craziest team. Share your thoughts with them.</p>
+        <div class="design"></div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path
+                d="M0,160L80,133.3C160,107,320,53,480,69.3C640,85,800,171,960,176C1120,181,1280,107,1360,69.3L1440,32L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+            </path>
+            <div class="img1"></div>
+            <div class="line"></div>
+            <div class="img2"></div>
+            <h2 class="img-h2">Web Designer</h2>
+            <p class="img-p2">UI UX Designer</p>
+            <div class="img3"></div>
+            <div class="img4"></div>
+            <div class="img5"></div>
+        </svg>
+    </div>
+</body>
+
+</html>
